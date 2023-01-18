@@ -1,0 +1,33 @@
+.image{
+    height: 200px;
+    background-color: rgb(108, 211, 211);
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.secondimage{
+    height: 200px;
+    background-color: rgb(184, 120, 184);
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.thirdimage{
+    height: 200px;
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+h1,p{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 58, 58);
+}
