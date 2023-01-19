@@ -1,0 +1,27 @@
+.row{
+    display: flex;
+    
+}
+.col{
+    flex: 1;
+    color: white;
+    height: 60px;
+    width: 50%;
+    background-color: rgb(14, 161, 153);
+    font-size: large;
+    align-items: baseline;
+    justify-content: space-evenly;
+    margin: 20px;
+    
+}
+.col-2{
+    flex: 2;
+    color: white;
+    height: 60px;
+    width: 50%;
+    background-color: rgb(14, 161, 153);
+    font-size: large;
+    justify-content: center;
+    margin: 20px;
+    
+}
