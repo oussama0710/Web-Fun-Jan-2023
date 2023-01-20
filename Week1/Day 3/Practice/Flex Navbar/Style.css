@@ -7,10 +7,15 @@
     background-color: rgb(0, 163, 163);
     color: #ffffff;
     margin: 15px;
-    
+
+}
+.links,h1
+{
+    text-align: left;
+    flex: 1;
 }
 li{
-    color:#555555;
+    color:#000000;
     display: flex;
     text-align: right;
 }
@@ -27,17 +32,20 @@ a{
     text-align: right;
 }
 .nav{
-    background-color: #555555;
+    background-color: #000000;
     display: flex;
-    justify-content: right;
+    
+    
+    margin: 0px;
 }
 .nav-links{
     display: flex;
     align-items: center;
     justify-content: right;
 }
-.nav-title{
+h1{
     display: flex;
     color: #ffffff;
-    margin-right: 670px;
+    position: relative;
+    left: 50px !important;
 }
