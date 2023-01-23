@@ -1,0 +1,109 @@
+/* navBar */
+.navBar{
+    width: 1130px;
+    background-color: rgb(129, 129, 129);
+    display: flex;
+    margin-left: 20%;
+}
+
+.navLinks{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
+}
+.navLinks button{
+    height: 35px;
+    width: 90px;
+    font-weight: normal;
+    font-size: large;
+    box-shadow: 5px 4px 4px black;
+    background-color: rgb(26, 64, 254);
+    color: #ffffff;
+}
+.navLinks input{
+    height: 28px;
+    width: 310px;
+}
+.navLinks h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* navBar */
+/* First And Second Boxes */
+.TwoBoxes{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+/* First Box */
+.firstBox{
+    height: 260px;
+    width: 455px;
+    border: 5px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.leftpar{
+    display: inline;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.leftpar button{
+    height: 33px;
+    width: 85px;
+    font-weight: normal;
+    font-size: large;
+    box-shadow: 5px 4px 4px black;
+    background-color: rgb(254, 197, 26);
+    color: #ffffff;
+}
+.rightpar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: large;
+    margin: 30px;
+}
+.secondBox{
+    height: 205px;
+    width: 245px;
+    border: 5px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: large;
+    margin: 10px;
+}
+.paragraph h1,.paragraph h2{
+    display: inline;
+}
+.paragraph button{
+    height: 33px;
+    width: 140px;
+    font-weight: normal;
+    font-size: large;
+    box-shadow: 5px 4px 4px black;
+    background-color: rgb(45, 121, 46);
+    color: #ffffff;
+    margin: 40px 10px 0 40px;
+}
+/* First Box */
+/* First And Second Boxes */
+
+/* Third Box */
+.thirdBox{
+    height: 260px;
+    width: 455px;
+    border: 5px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 0px 30%;
+}
+
+
+/* Third Box */
