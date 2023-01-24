@@ -1,0 +1,284 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+    padding: 0px;
+    margin: 0%;
+}
+/* Nav Bar */
+.nav{
+    background-color: #333333;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    
+}
+.nav-links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-title {
+    margin-left: 15%;
+}
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    margin-left: 200%;
+}
+/* Nav Bar */
+
+
+
+
+
+
+/* User Card */
+.container {
+    position: absolute;
+    top: 13%;
+    left: 15%;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid rgb(175, 175, 175);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, .card-body h2,.card-body h3,.card-body p {
+    margin: 20px 0px;
+}
+
+.userPic {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+/* User Card */
+
+/* Education */
+.EContainer{
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.EUser{
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid rgb(175, 175, 175);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+.Ecard{
+    background-color: #000000;
+    height: 50px;
+   
+}
+.Education{
+    color: #fff;
+    margin: 0px 5% 0px;
+    position: absolute;
+    top: 10px;
+}
+.Ecard-body h2,.Ecard-body h3,.Ecard-body p{
+    margin: 10px 0 ;
+    
+}
+.Ecard-body{
+    padding: 20px;
+}
+/* Education */
+/* Connection Requests */
+.CContainer{
+    position: absolute;
+    top: 13%;
+    left: 58%;
+    width: 600px;
+    margin: 0 auto;
+    align-items: center;
+}
+.CUser{
+    width: 50%;
+    background-color: #fff;
+    border: 2px solid rgb(175, 175, 175);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 0px;
+}
+.Ccard{
+    background-color: #000000;
+    height: 50px;
+   
+}
+
+.Connections{
+    color: #fff;
+    margin: 0px 5% 0px;
+    position: absolute;
+    top: 10px;
+}
+.circle p{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    background: #606060;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: large;
+    border: 50px;
+    position: absolute;
+    top: 9px;
+}
+.pics{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.Todd,.Phil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    margin-top: 20px;
+}
+/* Connection Requests */
+
+/* Your Connections*/
+.YContainer{
+    position: absolute;
+    top: 45%;
+    left: 58%;
+    width: 600px;
+    margin: 0 auto;
+    align-items: center;
+}
+.YUser{
+    width: 50%;
+    background-color: #fff;
+    border: 2px solid rgb(175, 175, 175);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 0px;
+}
+.Ycard{
+    background-color: #000000;
+    height: 50px;
+   
+}
+
+.YConnections{
+    color: #fff;
+    margin: 0px 5% 0px;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+.circletwo p{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.circletwo{
+    width: 60px;
+    height: 30px;
+    background: #606060;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: large;
+    border: 50px;
+    position: absolute;
+    top: 9px;
+}
+.pics{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.Adrien,.Anne,.Alayne,.Arry{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px;
+    margin-top: 20px;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ViewMore{
+    height: 50px;
+    border: 2px solid rgb(175, 175, 175);
+    
+}
+.ViewMore a{
+    display: flex;
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
+.Adrien p,.Anne p,.Alayne p,.Arry p{
+    margin-left: 12px;
+}
+
+/* Your Connections*/
