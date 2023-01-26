@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- nav-Bar -->
+    <div class="navBar">
+            <h1>DojoWeather</h1>
+            <ul class="navTitles">
+                <li><a onclick="alerterBurbank()" class="Burbank" href="#1">Burbank</a></li>
+                <li><a onclick="alerterChicago()"class="Chicago" href="#2">Chicago</a></li>
+                <li><a onclick="alerterDallas()" class="Dallas" href="#3">Dallas</a></li>
+            </ul>
+    </div>
+    <!-- nav-Bar -->
+    <div class="body">
+        <!-- city Title -->
+        <div class="titleBox">
+            
+            <h1>San Jose</h1>
+            <div class="cityTitles">
+                <p>show temperature in 
+                    <select onchange="pickUnit(this)" class="scroll" name="units">
+                        <option>°C</option>
+                        <option>°F</option>
+                    </select>
+                </p>
+            </div> 
+        </div>
+        <!-- city Title -->
+        <!-- All days weather -->
+        <div class="allBoxes">
+            <!-- today box -->
+            <div class="days">
+                <h2>Today</h2>
+                <img src="some_rain.png" alt="some rain">
+                <p>some rain</p>
+                <div class="degrees"><p class="red">24°</p> <p class="blue">18°</p></div>
+            </div>
+            <!-- today box -->
+
+
+
+            <!-- tomorrow box -->
+            <div class="days">
+                <h2>Tomorrow</h2>
+                <img src="some_sun.png" alt="some sun">
+                <p>some sun</p>
+                <div class="degrees"><p class="red2">27°</p> <p class="blue2">19°</p></div>
+            </div>
+            <!-- tomorrow box -->
+
+
+
+            <!-- friday box -->
+            <div class="days">
+                <h2>Friday</h2>
+                <img src="some_clouds.png" alt="some clouds">
+                <p>some clouds</p>
+                <div class="degrees"><p class="red3">21°</p> <p class="blue3">16°</p></div>
+            </div>
+            <!-- friday box -->
+
+
+            <!-- Saturday box -->
+            <div class="days">
+                <h2>Saturday</h2>
+                <img src="some_sun.png" alt="some sun">
+                <p>some sun</p>
+                <div class="degrees"><p class="red4">26°</p> <p class="blue4">21°</p></div>
+            </div>
+            <!-- Saturday box -->
+        </div>
+        <!-- All days weather -->
+        <!-- coockies -->
+        <div class="coockieBox">
+            <img src="cookie.png" alt="cookie pic">
+            <div class="pars">
+                <h3>Stop! cookie time</h3>
+                <p>we use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button onclick="DeleteCookie()">I Accept</button>
+        </div>
+
+
+
+    <!-- coockies -->
+    <script src="script.js"></script>
+</body>
+</html>
